@@ -1,0 +1,12 @@
+Nápad projektu
+
+Tento projekt slouží k procvičení práce s Git a GitHubem.
+
+Budeme procvičovat:
+- commity
+- branche
+- Pull Requesty
+- Issues
+- code review
+- merge
+- release a tagy

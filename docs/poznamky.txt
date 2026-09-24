@@ -1,0 +1,10 @@
+Poznámky
+
+Git slouží ke správě verzí souborů.
+
+GitHub umožňuje ukládat Git repozitáře online
+a spolupracovat na nich.
+
+Commit ukládá změny.
+Branch umožňuje pracovat odděleně.
+Pull Request slouží k navržení změn pro sloučení.

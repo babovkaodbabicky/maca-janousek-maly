@@ -1,0 +1,11 @@
+Úkoly
+
+1. Vytvořit GitHub repository
+2. Vytvořit README
+3. Vytvořit .gitignore
+4. Vytvořit branche
+5. Udělat commity
+6. Vytvořit Pull Request
+7. Provést code review
+8. Sloučit změny do main
+9. Vytvořit release
