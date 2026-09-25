@@ -9,3 +9,54 @@ Commit ukládá změny.
 Branch umožňuje pracovat odděleně.
 Pull Request slouží k navržení změn pro sloučení.
 Každý člen týmu pracuje na vlastní větvi.
+
+
+4. Teď Janoušek
+Na počítači, kde bude Janoušek pracovat, nejdřív:
+git checkout main
+git pull origin main
+git checkout -b feature/janousek
+
+Teď je na své větvi.
+Udělá 3 různé změny a po každé samostatný commit. Například:
+# upraví docs/ukoly.txt
+git add docs/ukoly.txt
+git commit -m "Update task list"
+
+Pak upraví třeba README.md:
+git add README.md
+git commit -m "Add author information"
+
+Pak upraví třeba docs/poznamky.txt:
+git add docs/poznamky.txt
+git commit -m "Update Git notes"
+
+A nahraje svoji větev:
+git push -u origin feature/janousek
+
+Potom na GitHubu zase:
+Pull requests → New pull request → feature/janousek do main → Create pull request.
+Tentokrát ho můžeš ty nebo Malý reviewnout → Approve → Merge.
+5. Nakonec Malý
+Po mergi Janouška:
+git checkout main
+git pull origin main
+git checkout -b feature/maly
+
+Malý zase udělá 3 změny = 3 commity, například:
+git add docs/napad.txt
+git commit -m "Expand project idea"
+
+další změna:
+git add docs/poznamky.txt
+git commit -m "Add GitHub notes"
+
+a třetí:
+git add README.md
+git commit -m "Improve project documentation"
+
+Pak:
+git push -u origin feature/maly
+
+A zase GitHub:
+PR feature/maly → main → jiný člen udělá Approve → Merge.
