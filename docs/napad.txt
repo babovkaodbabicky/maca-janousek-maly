@@ -9,4 +9,3 @@ Budeme procvičovat:
 - Issues
 - code review
 - merge
-- release a tagya

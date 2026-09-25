@@ -37,3 +37,5 @@ Stačí naklonovat repository a otevřít textové soubory v libovolném textov�
 ## Ukázka
 
 ![Screenshot](assets/screenshot.png)
+
+Projekt byl vytvořen jako školní práce zaměřená na Git a GitHub.
