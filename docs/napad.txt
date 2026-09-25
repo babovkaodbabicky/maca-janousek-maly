@@ -12,3 +12,11 @@ Budeme procvičovat:
 - release a tagy
 Projekt slouží k procvičení spolupráce více lidí pomocí GitHubu.git add docs/napad.txt
 git commit -m "Update project description"
+git clone https://github.com/babovkaodbabicky/maca-janousek-maly.git
+cd maca-janousek-maly
+git config user.name "JMENO JANOUSEK"
+git config user.email "JEHO_GITHUB_EMAIL"
+git checkout main
+git pull origin main
+git checkout -b feature/janousek
+git status
