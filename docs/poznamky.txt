@@ -8,3 +8,4 @@ a spolupracovat na nich.
 Commit ukládá změny.
 Branch umožňuje pracovat odděleně.
 Pull Request slouží k navržení změn pro sloučení.
+a
