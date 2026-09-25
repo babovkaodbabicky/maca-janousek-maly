@@ -10,3 +10,5 @@ Budeme procvičovat:
 - code review
 - merge
 - release a tagy
+Projekt slouží k procvičení spolupráce více lidí pomocí GitHubu.git add docs/napad.txt
+git commit -m "Update project description"
